@@ -34,5 +34,13 @@ dotnet add package Swashbuckle.AspNetCore.Annotations
 REM Instalación de System.Configuration.ConfigurationManager
 dotnet add package System.Configuration.ConfigurationManager
 
+REM Instalación de HealthChecks y sus configuraciones
+dotnet add package AspNetCore.HealthChecks.ApplicationStatus 
+dotnet add package AspNetCore.HealthChecks.SendGrid
+dotnet add package AspNetCore.HealthChecks.SqlServer
+dotnet add package AspNetCore.HealthChecks.UI
+dotnet add package AspNetCore.HealthChecks.UI.Client 
+dotnet add package AspNetCore.HealthChecks.UI.InMemory.Storage
+
 echo Paquetes NuGet instalados con éxito.
 pause
